@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+/* ==================== CONTROLS ==================== */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  gap: 4px;
+}
+
+input[type="number"],
+select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  width: 120px;
+  background-color: #fff;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: #0077b6;
+}
+
+/* ==================== BUTTONS ==================== */
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-generate {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-visualize {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+/* ==================== STATS ==================== */
+.stats {
+  display: flex;
+  gap: 24px;
+  background-color: #fff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* ==================== GRID ==================== */
+.grid {
+  display: grid;
+  gap: 1px;
+  background-color: #ddd;
+  border: 2px solid #1a1a2e;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  transition: background-color 0.1s ease;
+}

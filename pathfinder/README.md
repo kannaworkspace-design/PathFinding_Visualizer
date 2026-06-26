@@ -1,0 +1,1 @@
+Built a Pathfinding Visualizer in React implementing BFS, Dijkstra and A* on weighted grids with real time animation. Also implemented the same algorithms in C++ with execution time comparison
