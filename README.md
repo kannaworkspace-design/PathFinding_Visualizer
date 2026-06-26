@@ -4,7 +4,7 @@ A visual tool that shows exactly how BFS, Dijkstra and A* navigate through a wei
 
 Built with React. The same algorithms are also implemented as a standalone C++ CLI tool in the `/cpp` folder.
 
-🔗 Live Demo — (your vercel link here)
+🔗 Live Demo — https://path-finding-visualizer-bay.vercel.app/
 
 ---
 
